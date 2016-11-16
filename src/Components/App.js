@@ -13,7 +13,7 @@ class App extends Component {
               I am a designer and developer with over 13 years of experience thinking about the visitor.
             </p>
             <p className="about-text">
-              You are all different.
+              Each one is different.
             </p>
           </section>
         </div>

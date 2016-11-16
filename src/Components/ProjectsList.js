@@ -21,28 +21,24 @@ const ProjectsList = () => {
       <article className="project c">
         <Link to="/Project3" className="project-links-dark">
           <h3 className="project-title">Shoot the Breeze</h3>
-          <p>About</p>
         </Link>
       </article>
 
       <article className="project d">
         <Link to="/Project4" className="project-links-light">
-          <h3 className="project-title">IdeaBox</h3>
-          <p>About</p>
+          <h3 className="project-title">Pomodoro App</h3>
         </Link>
       </article>
 
       <article className="project e">
         <Link to="/Project5" className="project-links-dark">
           <h3 className="project-title">GameTime</h3>
-          <p>About</p>
         </Link>
       </article>
 
       <article className="project f">
         <Link to="/Project6" className="project-links-light">
-          <h3 className="project-title">Pomodoro App</h3>
-          <p>About</p>
+          <h3 className="project-title">Other</h3>
         </Link>
       </article>
     </section>
