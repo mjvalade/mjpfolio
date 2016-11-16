@@ -1,0 +1,46 @@
+.header-container {
+  background: #455A64;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header-title {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+  float: left;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  font-size: 150%;
+  color: white;
+  line-height: 1em;
+}
+
+/* Orange header icon */
+.icon {
+  float: left;
+  height: 90px;
+  width: 100px;
+  background-color: #FF5722;
+  margin-left: 20px;
+}
+
+nav {
+  float: right;
+  margin: 25px 20px 0 0;
+}
+
+.top {
+  font-family: 'Prompt', sans-serif;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.top:hover {
+ text-decoration: none;
+ color: #FF5722;
+}
