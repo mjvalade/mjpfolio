@@ -7,23 +7,16 @@ const ProjectsList = () => {
   return(
     <section id="projects" className="offset">
       <Link to="/Project1" className="project a project-links-dark">
-        <article >
-          <h3 className="project-title">CO Kid Hikes</h3>
-          {/* <p>About</p> */}
-        </article>
-        <img src="./assets/hikedetail-small.jpeg"
-        className="proj1-img"
-        alt="project 1"
-        name="https://unsplash.com/search/hiking?photo=Md5vvHf55fk"
-        />
+        <div className="overlay">
+          <h3 className="overlay-title">CO Kid Hikes</h3>
+        </div>
       </Link>
 
-      <article className="project b">
-        <Link to="/Project2" className="project-links-light">
-          <h3 className="project-title">Weather Tracker</h3>
-          <p>About</p>
-        </Link>
-      </article>
+      <Link to="/Project2" className="project b project-links-dark">
+        <div className="overlay">
+          <h3 className="overlay-title">Weather Tracker</h3>
+        </div>
+      </Link>
 
       <article className="project c">
         <Link to="/Project3" className="project-links-dark">
