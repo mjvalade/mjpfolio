@@ -28,7 +28,7 @@ const Footer = () => {
       </section>
 
       <section id="past-life" className="column-middle">
-        <h2 className="footer-title">PAST LIFE</h2>
+        <h2 className="footer-title">EXPERIENCE</h2>
         <a href="http://www.auroramuseum.org">
           <img role="presentation" className="logo" src="assets/ahm-logo.jpg"/></a>
         <a href="http://www.nbm.org">
