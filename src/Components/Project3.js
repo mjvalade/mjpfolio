@@ -10,14 +10,14 @@ const Project3 = () => {
         <h1>
           This is a browser application for a multi-user chat room.
         </h1>
-        <p>
+        <p className="project-text">
           Built using React.js with a Firebase server and SASS for looks.
         </p>
         <a href="https://shootthebreeze-559ba.firebaseapp.com/">
-          <p>Try it for yourself.</p>
+          <p className="project-text">Try it for yourself.</p>
         </a>
         <a href="https://github.com/mjvalade/shoot-the-breeze">
-          <p>Check out the codes.</p>
+          <p className="project-text">Check out the codes.</p>
         </a>
         <img src="./assets/screenshot-shootbreeze.png"
         alt="website screenshot"

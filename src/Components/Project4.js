@@ -10,14 +10,14 @@ const Project4 = () => {
         <h1>
           This is a mobile-friendly browser timer app to track times for working and a break in the pomodoro style.
         </h1>
-        <p>
+        <p className="project-text">
           Built using vanilla JavaScript with jQuery and webpack, including some SASS.
         </p>
         <a href="https://mjvalade.github.io/Pomodoro-App/">
-          <p>Try it for yourself.</p>
+          <p className="project-text">Try it for yourself.</p>
         </a>
         <a href="https://github.com/mjvalade/Pomodoro-App">
-          <p>Check out the codes.</p>
+          <p className="project-text">Check out the codes.</p>
         </a>
         <img src="./assets/screenshot-pomodoro.png"
         alt="website screenshot"

@@ -5,7 +5,7 @@
 
 #about-me {
   /*height: 320px;*/
-  height: 75vh;
+  height: 65vh;
   /*background-color: #607D8B;*/
   text-align: center;
   /*background: linear-gradient(
@@ -17,7 +17,7 @@
   background-position: 0px -400px;
   border-bottom: 2px solid #BDBDBD;*/
   color: #FF5722;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 70px;
 }
 
