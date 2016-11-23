@@ -4,14 +4,14 @@ import { BrowserRouter, Match, Miss } from 'react-router';
 import Header from './Components/Header';
 import App from './Components/App';
 import Project1 from './Components/Project1';
-import Resume from './Components/Resume';
+import Project2 from './Components/Project2';
+import Project3 from './Components/Project3';
+import Project4 from './Components/Project4';
 import NoMatch from './Components/NoMatch';
 import Footer from './Components/Footer';
 
 
 import './styles/index.css';
-// require('!style!css!sass!./styles/style.scss');
-// require('./styles/style.scss');
 
 const Root = () => {
   return (
@@ -19,9 +19,11 @@ const Root = () => {
       <div>
         <Header />
         <Match exactly pattern="/" component={App} />
-        <Match exactly pattern="/Resume" component={Resume} />
+        {/* <Match pattern="/Project/:title" component={TrailDetailContainer} /> */}
         <Match exactly pattern="/Project1" component={Project1} />
-
+        <Match exactly pattern="/Project2" component={Project2} />
+        <Match exactly pattern="/Project3" component={Project3} />
+        <Match exactly pattern="/Project4" component={Project4} />
         <Miss component={NoMatch} />
         <Footer />
       </div>

@@ -1,46 +1,45 @@
 import React from 'react';
 import { Link } from 'react-router';
-import '../styles/projects.css';
+import '../styles/projectsList.css';
 
 
 const ProjectsList = () => {
   return(
     <section id="projects" className="offset">
-      <article className="project a">
-        <Link to="/Project1" className="project-links-dark">
-          <h3>Networking App</h3>
-          <p>About</p>
+      <Link to="/Project1" className="project a project-links-dark">
+        <div className="overlay">
+          <h3 className="overlay-title">CO Kid Hikes</h3>
+        </div>
+      </Link>
+
+      <Link to="/Project2" className="project b project-links-dark">
+        <div className="overlay">
+          <h3 className="overlay-title">Weather Tracker</h3>
+        </div>
+      </Link>
+
+      <article className="project c">
+        <Link to="/Project3" className="project-links-dark">
+          <h3 className="project-title">Shoot the Breeze</h3>
         </Link>
       </article>
 
-      <article className="project b">
-        <a href="#" className="project-links-light">
-        <h3>Bookmark List</h3>
-        <p>About</p></a>
-      </article>
-
-      <article className="project c">
-        <a href="#" className="project-links-dark">
-        <h3>Color Changer</h3>
-        <p>About</p></a>
-      </article>
-
       <article className="project d">
-        <a href="#" className="project-links-light">
-        <h3>IdeaBox</h3>
-        <p>About</p></a>
+        <Link to="/Project4" className="project-links-light">
+          <h3 className="project-title">Pomodoro App</h3>
+        </Link>
       </article>
 
       <article className="project e">
-        <a href="./projects/gametime/surfs-up.html" className="project-links-dark">
-        <h3>GameTime</h3>
-        <p>About</p></a>
+        <Link to="/Project5" className="project-links-dark">
+          <h3 className="project-title">GameTime</h3>
+        </Link>
       </article>
 
       <article className="project f">
-        <a href="https://mjvalade.github.io/Pomodoro-App/" className="project-links-light">
-        <h3>Pomodoro App</h3>
-        <p>About</p></a>
+        <Link to="/Project6" className="project-links-light">
+          <h3 className="project-title">Other</h3>
+        </Link>
       </article>
     </section>
   );

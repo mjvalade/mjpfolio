@@ -4,9 +4,21 @@
 }
 
 #about-me {
-  height: 320px;
-  background-color: #607D8B;
+  /*height: 320px;*/
+  height: 75vh;
+  /*background-color: #607D8B;*/
   text-align: center;
+  /*background: linear-gradient(
+      rgba(189, 189, 189, 0.60),
+      rgba(189, 189, 189, 0.60)
+    ),
+   url(../../public/assets/hero.jpg);
+  background-size: cover;
+  background-position: 0px -400px;
+  border-bottom: 2px solid #BDBDBD;*/
+  color: #FF5722;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .name {
@@ -14,9 +26,19 @@
   font-family: 'Prompt', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
+  margin-bottom: 0;
+  /*text-shadow: 1px 1px 1px #000;*/
+
   /*margin-top: 40px;*/
+}
 
-
+.about-text {
+  margin: 0;
+  margin: auto;
+  color: black;
+  font-size: 2em;
+  width: 70%;
+  /*text-shadow: 1px 1px 1px #000;*/
 }
 
 /*.color-wash {
