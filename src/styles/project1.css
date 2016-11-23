@@ -13,8 +13,14 @@
   width: 90%;
 }
 
+.project-text {
+  font-size: 20px;
+  margin: 0;
+}
+
 .screenshot {
   width: 70%;
   border: 1px solid black;
   margin-bottom: 40px;
+  margin-top: 20px;
 }

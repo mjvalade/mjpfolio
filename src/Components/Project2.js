@@ -10,11 +10,11 @@ const Project2 = () => {
         <h1>
           This is a web application to find the weather forecast for a user's favorite cities.
         </h1>
-        <p>
+        <p className="project-text">
           Built using React.js and Redux with SASS for looks.
         </p>
         <a href="https://github.com/mjvalade/weather-forecast">
-          <p>Check out the codes.</p>
+          <p className="project-text">Check out the codes.</p>
         </a>
         {/* <img src="./assets/screenshot-kidhikes.png"
         alt="website screenshot"

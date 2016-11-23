@@ -5,7 +5,8 @@ import '../styles/projectsList.css';
 
 const ProjectsList = () => {
   return(
-    <section id="projects" className="offset">
+    <section id="all-projects" className="offset">
+
       <Link to="/Project1" className="project a project-links-dark">
         <div className="overlay">
           <h3 className="overlay-title">CO Kid Hikes</h3>
@@ -18,29 +19,29 @@ const ProjectsList = () => {
         </div>
       </Link>
 
-      <article className="project c">
-        <Link to="/Project3" className="project-links-dark">
-          <h3 className="project-title">Shoot the Breeze</h3>
-        </Link>
-      </article>
+      <Link to="/Project3" className="project c project-links-dark">
+        <div className="overlay">
+          <h3 className="overlay-title">Shoot the Breeze</h3>
+        </div>
+      </Link>
 
-      <article className="project d">
-        <Link to="/Project4" className="project-links-light">
+      <Link to="/Project4" className="project d project-links-light">
+        <div className="overlay">
           <h3 className="project-title">Pomodoro App</h3>
-        </Link>
-      </article>
+        </div>
+      </Link>
 
-      <article className="project e">
-        <Link to="/Project5" className="project-links-dark">
+      <Link to="/Project5" className="project e project-links-dark">
+        <div className="overlay">
           <h3 className="project-title">GameTime</h3>
-        </Link>
-      </article>
+        </div>
+      </Link>
 
-      <article className="project f">
-        <Link to="/Project6" className="project-links-light">
+      {/* <Link to="/Project6" className="project f project-links-light">
+        <div className="overlay">
           <h3 className="project-title">Other</h3>
-        </Link>
-      </article>
+        </div>
+      </Link> */}
     </section>
   );
 };
