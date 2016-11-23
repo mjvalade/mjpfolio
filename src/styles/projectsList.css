@@ -107,13 +107,13 @@
 
 /*Project 4*/
 .project.d {
-  background-color: white;
-  color: black;
+  background-color: #FF5722;
+  color: white;
 }
 
 .project.d:hover {
-  background-color: #388E3C;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .project.d h3 {
