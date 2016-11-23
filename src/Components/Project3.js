@@ -19,7 +19,7 @@ const Project3 = () => {
         <a href="https://github.com/mjvalade/shoot-the-breeze">
           <p className="project-text">Check out the codes.</p>
         </a>
-        <img src="./assets/screenshot-shootbreeze.png"
+        <img src="../assets/screenshot-shootbreeze.png"
         alt="website screenshot"
         className="screenshot" />
       </section>
