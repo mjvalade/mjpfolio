@@ -19,7 +19,7 @@ const Project4 = () => {
         <a href="https://github.com/mjvalade/Pomodoro-App">
           <p className="project-text">Check out the codes.</p>
         </a>
-        <img src="./assets/screenshot-pomodoro.png"
+        <img src="../assets/screenshot-pomodoro.png"
         alt="website screenshot"
         className="screenshot" />
       </section>

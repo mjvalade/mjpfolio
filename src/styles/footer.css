@@ -1,16 +1,13 @@
 footer {
-  /*column-count: 3;
-  column-width: 200px;*/
-  /*border-top: 2px solid #0C273D;*/
+  align-content: flex-start;
   background: #BDBDBD;
-  height: 25%;
-  /*padding-top: 10px;*/
-  padding-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
-  transition: 1s;
   font-family: 'Prompt', sans-serif;
+  height: 25%;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  transition: 1s;
 }
 
 .footer-title {
@@ -25,30 +22,24 @@ footer img {
   flex-direction: row;
   height: 30px;
   width: 30px;
-  padding-top: 5px;
   margin-right: 5px;
+  padding-top: 5px;
 }
-/*footer h2 {
-  column-span: all;
-}*/
 
 #education {
   flex: 2 1 30%;
-  /*border: 1px solid black;*/
   padding-top: 10px;
   padding-left: 10px;
 }
 
 #past-life {
   flex: 1 1 30%;
-  /*border: 1px solid black;*/
   padding-top: 10px;
   padding-left: 10px;
 }
 
 #contact {
   flex: 1 1 30%;
-  /*border: 1px solid black;*/
   padding-top: 10px;
   padding-left: 10px;
 }

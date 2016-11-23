@@ -19,7 +19,7 @@ const Project1 = () => {
         <a href="https://github.com/mjvalade/cokid-hikes">
           <p className="project-text">Check out the codes.</p>
         </a>
-        <img src="./assets/screenshot-kidhikes.png"
+        <img src="../assets/screenshot-kidhikes.png"
         alt="website screenshot"
         className="screenshot" />
       </section>
