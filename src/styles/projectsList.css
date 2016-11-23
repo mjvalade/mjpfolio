@@ -40,7 +40,6 @@
 .project.a {
   background: url(../../public/assets/hikedetail-small.jpeg);
   background-size: cover;
-  /*text-decoration: none;*/
 }
 
 .project.a:hover {
@@ -57,7 +56,6 @@
 .project.b {
   background: url(../../public/assets/weatherdetail.jpeg);
   background-size: cover;
-  /*text-decoration: none;*/
   flex: 2 600px;
 }
 
@@ -72,7 +70,7 @@
 
 /*Project 3*/
 .project.c {
-  background: url(../../public/assets/writing.jpeg);
+  background: url(../../public/assets/writing-small.jpeg);
   background-size: cover;
   flex: 2 600px;
 }
@@ -89,7 +87,7 @@
 
 /*Project 4*/
 .project.d {
-  background: url(../../public/assets/tomato.jpeg);
+  background: url(../../public/assets/tomato-small.jpeg);
   background-size: cover;
 }
 
@@ -104,7 +102,7 @@
 
 /*Project 5*/
 .project.e {
-  background: url(../../public/assets/keyboard.jpeg);
+  background: url(../../public/assets/keyboard-small.jpeg);
   background-size: cover;}
 
 .project.e:hover {
