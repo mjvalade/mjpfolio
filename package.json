@@ -2,7 +2,7 @@
   "name": "mjpfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mjvalade.github.io/mjpfolio/",
+  "homepage": "https://mjvalade-48354.firebaseapp.com/",
   "devDependencies": {
     "css-loader": "^0.25.0",
     "gh-pages": "^0.12.0",
