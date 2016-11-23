@@ -41,6 +41,7 @@
 .project.a {
   background: url(../../public/assets/hikedetail-small.jpeg);
   background-size: cover;
+  transition: all 0.4s ease-out;
 }
 
 .project.a:hover {
@@ -58,6 +59,7 @@
   background: url(../../public/assets/weatherdetail.jpeg);
   background-size: cover;
   flex: 2 600px;
+  transition: all 0.4s ease-out;
 }
 
 .project.b:hover {
@@ -74,6 +76,7 @@
   background: url(../../public/assets/writing-small.jpeg);
   background-size: cover;
   flex: 2 600px;
+  transition: all 0.4s ease-out;
 }
 
 .project.c:hover {
@@ -90,6 +93,7 @@
 .project.d {
   background: url(../../public/assets/tomato-small.jpeg);
   background-size: cover;
+  transition: all 0.4s ease-out;
 }
 
 .project.d:hover {
@@ -104,7 +108,9 @@
 /*Project 5*/
 .project.e {
   background: url(../../public/assets/keyboard-small.jpeg);
-  background-size: cover;}
+  background-size: cover;
+  transition: all 0.4s ease-out;
+}
 
 .project.e:hover {
   color: white;
@@ -120,7 +126,7 @@
   background-color: white;
   color: black;
   flex: 2 600px;
-
+  transition: all 0.4s ease-out;
 }
 
 .project.f:hover {
