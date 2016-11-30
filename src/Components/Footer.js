@@ -7,14 +7,15 @@ const Footer = () => {
     <footer id="footer" className="offset">
       <section id="contact" className="column-right">
         <h2 className="footer-title">CONTACT</h2>
-        <a className="email" href="mailto:mjvalade@gmail.com">mjvalade@gmail.com</a>
-        <br/>
         <a href="http://www.linkedin.com/in/maryjane-valade">
           <img role="presentation" src="assets/linkedin.png"/></a>
         <a href="https://github.com/mjvalade">
           <img role="presentation" src="assets/github.png"/></a>
         <a href="https://twitter.com/mjvalade22">
           <img role="presentation" src="assets/twitter.png"/></a>
+        {/* <br/> */}
+        <a className="email" href="mailto:mjvalade@gmail.com">
+          <img role="presentation" src="assets/email.png"/></a>
       </section>
 
       <section id="education" className="column-left">

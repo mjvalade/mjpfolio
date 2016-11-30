@@ -28,6 +28,14 @@
   margin-left: 20px;
 }
 
+.icon:hover {
+  background-color: #BDBDBD;
+}
+
+.header-title:hover {
+  color: #FF5722;
+}
+
 nav {
   float: right;
   margin: 25px 20px 0 0;

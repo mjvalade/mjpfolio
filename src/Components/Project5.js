@@ -5,7 +5,7 @@ import '../styles/project1.css';
 const Project5 = () => {
   return(
     <div>
-      <h1 className="title">Game Time</h1>
+      <h1 className="title">GameTime</h1>
       <section className="project-body">
         <h1>
           Surf's Up is an endless-running style game for the broswer. We used the Google Chrome dinosaur game as inspiration for our surfer. Players manipulate the surfer using the spacebar to jump over rocks.

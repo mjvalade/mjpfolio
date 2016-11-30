@@ -7,7 +7,7 @@ const Header = () => {
   return(
     <header className="header-container">
       <section className="icon">
-        <Link to="/mjpfolio">
+        <Link to="/">
           <h1 className="header-title">Front-End Design</h1>
         </Link>
       </section>

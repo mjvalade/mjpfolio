@@ -19,7 +19,7 @@ const Root = () => {
     <BrowserRouter>
       <div>
         <Header />
-        <Match exactly pattern="/mjpfolio" component={App} />
+        <Match exactly pattern="/" component={App} />
         {/* <Match pattern="/Project/:title" component={TrailDetailContainer} /> */}
         <Match exactly pattern="/Project1" component={Project1} />
         <Match exactly pattern="/Project2" component={Project2} />
