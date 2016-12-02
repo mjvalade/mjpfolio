@@ -6,8 +6,9 @@ footer {
   font-family: 'Prompt', sans-serif;
   height: 25%;
   margin-top: 10px;
+  padding-bottom: 30px;
   padding-left: 20px;
-  padding-bottom: 10px;
+  padding-top: 10px;
   transition: 1s;
 }
 
