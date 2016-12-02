@@ -1,1 +1,1 @@
-Personal portfolio website from Turing School.
+Personal portfolio website.
