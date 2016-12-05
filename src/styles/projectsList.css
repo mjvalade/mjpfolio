@@ -20,10 +20,6 @@
   position: relative;
 }
 
-/*.project h3 {
-  margin-top: 90px;
-}*/
-
 .overlay {
   display: none;
 }
@@ -37,6 +33,33 @@
   height: 100%;
   opacity: 0.80;
   position: relative;
+}
+
+@media screen and (max-width: 400px) {
+  .overlay {
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5em;
+    justify-content: center;
+    line-height: 1.25em;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .overlay-title {
+    display: flex;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 15%;
+  }
+  .overlay-about {
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+  }
 }
 
 /*Project 1*/
@@ -139,7 +162,7 @@
 
 /*Project 5*/
 .project.e {
-  background: url(../../public/assets/keyboard-small.jpeg);
+  background: url(../../public/assets/keyboard-small.jpeg) center;
   background-size: cover;
   transition: all 0.5s ease-out;
 }

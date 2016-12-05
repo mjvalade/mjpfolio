@@ -4,7 +4,7 @@ import '../styles/project1.css';
 const Project4 = () => {
   return(
     <div>
-      <h1 className="title">Pomodoro Timer</h1>
+      <h1 className="title pom">Pomodoro Timer</h1>
       <section className="project-body">
         <h1>
           This is a mobile-friendly browser timer app to track times for working and a break in the pomodoro style.
