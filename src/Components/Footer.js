@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/footer.css';
 
-
 const Footer = () => {
   return(
     <footer id="footer" className="offset">
@@ -13,7 +12,6 @@ const Footer = () => {
           <img role="presentation" src="assets/github.png"/></a>
         <a href="https://twitter.com/mjvalade22">
           <img role="presentation" src="assets/twitter.png"/></a>
-        {/* <br/> */}
         <a className="email" href="mailto:mjvalade@gmail.com">
           <img role="presentation" src="assets/email.png"/></a>
       </section>

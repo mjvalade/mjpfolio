@@ -11,7 +11,6 @@ import Project5 from './Components/Project5';
 import NoMatch from './Components/NoMatch';
 import Footer from './Components/Footer';
 
-
 import './styles/index.css';
 
 const Root = () => {
@@ -20,7 +19,6 @@ const Root = () => {
       <div>
         <Header />
         <Match exactly pattern="/" component={App} />
-        {/* <Match pattern="/Project/:title" component={TrailDetailContainer} /> */}
         <Match exactly pattern="/Project1" component={Project1} />
         <Match exactly pattern="/Project2" component={Project2} />
         <Match exactly pattern="/Project3" component={Project3} />
