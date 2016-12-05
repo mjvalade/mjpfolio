@@ -13,18 +13,19 @@
   float: left;
   margin-left: 8px;
   margin-right: 8px;
-  margin-top: 11px;
+  margin-top: 18px;
   margin-bottom: 11px;
   font-size: 150%;
   color: white;
   line-height: 1em;
+  /*text-align: center;*/
 }
 
 /* Orange header icon */
 .icon {
   float: left;
   height: 90px;
-  width: 100px;
+  width: 120px;
   background-color: #FF5722;
   margin-left: 20px;
 }

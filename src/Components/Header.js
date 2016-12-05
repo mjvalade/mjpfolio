@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header-container">
       <section className="icon">
         <Link to="/">
-          <h1 className="header-title">Front-End Design</h1>
+          <h1 className="header-title">MaryJane Valade</h1>
         </Link>
       </section>
 

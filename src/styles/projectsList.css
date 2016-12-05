@@ -20,9 +20,9 @@
   position: relative;
 }
 
-.project h3 {
+/*.project h3 {
   margin-top: 90px;
-}
+}*/
 
 .overlay {
   display: none;
@@ -41,7 +41,7 @@
 
 /*Project 1*/
 .project.a {
-  background: url(../../public/assets/hikedetail-small.jpeg);
+  background: url(../../public/assets/hikecropped.jpeg) center;
   background-size: cover;
   transition: all 0.5s ease-out;
 }
@@ -51,14 +51,38 @@
   font-size: 3em;
 }
 
+/*.project-title {
+  color: white;
+  visibility: visible;
+}
+
+.project-title:hover {
+  visibility: collapse;
+}*/
+
 .project.a:hover .overlay {
   background: #455A64;
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay-title {
+  display: flex;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 10%;
+}
+
+.overlay-about {
+  display: flex;
+  margin: auto;
+  margin-top: 0;
 }
 
 
 /*Project 2*/
 .project.b {
-  background: url(../../public/assets/weatherdetail.jpeg);
+  background: url(../../public/assets/weatherdetail.jpeg) center;
   background-size: cover;
   flex: 2 600px;
   transition: all 0.5s ease-out;
@@ -71,11 +95,13 @@
 
 .project.b:hover .overlay {
   background: #FF5722;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Project 3*/
 .project.c {
-  background: url(../../public/assets/writing-small.jpeg);
+  background: url(../../public/assets/writing-small.jpeg) center;
   background-size: cover;
   flex: 2 600px;
   transition: all 0.5s ease-out;
@@ -88,6 +114,8 @@
 
 .project.c:hover .overlay {
   background: #388E3C;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -105,6 +133,8 @@
 
 .project.d:hover .overlay {
   background: #FF5722;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Project 5*/
@@ -121,6 +151,8 @@
 
 .project.e:hover .overlay {
   background-color: #303F9F;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Project 6*/

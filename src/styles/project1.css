@@ -3,6 +3,7 @@
   font-family: 'Prompt', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
+  line-height: 1.125em;
   margin-bottom: 0;
   margin-top: 100px;
   margin-left: 40px;
@@ -11,22 +12,22 @@
 .project-body {
   margin-left: 40px;
   width: 90%;
-  /*text-decoration: none;*/
-
+  max-width: 75ch;
 }
 
 .project-text {
   font-size: 20px;
   margin: 0;
+  max-width: 75ch;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #FF5722;
 }
 
 a:hover {
-  color: #FF5722;
+  color: black;
 }
 
 .screenshot {
