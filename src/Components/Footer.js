@@ -6,7 +6,7 @@ const Footer = () => {
     <footer id="footer" className="offset">
       <section id="contact" className="column-right">
         <h3 className="footer-title">CONTACT</h3>
-        <a href="http://www.linkedin.com/in/maryjane-valade">
+        <a href="http://www.linkedin.com/in/mjvalade">
           <img role="presentation" src="assets/linkedin.png"/></a>
         <a href="https://github.com/mjvalade">
           <img role="presentation" src="assets/github.png"/></a>
