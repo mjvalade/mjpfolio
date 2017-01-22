@@ -1,5 +1,6 @@
 .header-container {
-  background: #455A64;
+  /*background: #455A64;*/
+  background: #323232;
   height: 75px;
   width: 100%;
   position: fixed;
@@ -8,16 +9,16 @@
 }
 
 .header-title {
-  font-family: 'Prompt', sans-serif;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   float: left;
   margin-left: 8px;
   margin-right: 8px;
-  margin-top: 18px;
-  margin-bottom: 11px;
+  margin-top: 15px;
+  /*margin-bottom: 11px;*/
   font-size: 150%;
   color: white;
-  line-height: 1em;
+  line-height: 1.25em;
   /*text-align: center;*/
 }
 

@@ -23,7 +23,7 @@ export default StyleSheet.create({
     },
     "name": {
         "fontSize": 3.5,
-        "fontFamily": "'Prompt', sans-serif",
+        "fontFamily": "'Open Sans', sans-serif",
         "fontWeight": "400",
         "lineHeight": 1,
         "marginBottom": 15
@@ -35,7 +35,8 @@ export default StyleSheet.create({
         "marginLeft": "auto",
         "color": "white",
         "fontSize": 2,
-        "lineHeight": 32,
+        "fontWeight": "300",
+        "lineHeight": 35,
         "width": "90%"
     },
     "lower": {

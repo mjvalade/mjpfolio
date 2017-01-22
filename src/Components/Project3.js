@@ -10,7 +10,7 @@ const Project3 = () => {
           This is a browser application for a multi-user chat room.
         </h1>
         <p className="project-text">
-          Built using React.js with a Firebase server and SASS for looks.
+          Built using ReactJS with a Firebase database and SASS for looks.
         </p>
         <a href="https://shootthebreeze-559ba.firebaseapp.com/">
           <p className="project-text">Try it for yourself.</p>

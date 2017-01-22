@@ -21,7 +21,7 @@ const Footer = () => {
         <a href="http://www.turing.io">
           <img role="presentation" className="logo" src="assets/turing-clear.png"/></a>
         <a href="http://www.gwu.edu">
-          <img role="presentation" className="logo" src="assets/gw.png"/></a>
+          <img role="presentation" className="logo" src="assets/gw-bw.png"/></a>
         <a href="http://www.kzoo.edu">
           <img role="presentation" className="logo" src="assets/kzoo-clear.png"/></a>
       </section>

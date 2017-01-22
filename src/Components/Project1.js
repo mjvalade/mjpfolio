@@ -10,7 +10,10 @@ const Project1 = () => {
           This is a web application for users to upload and search for hiking trails in Colorado that are kid-focused.
         </h1>
         <p className="project-text">
-          Built using React.js and Redux with Firebase as the database and SASS for looks.
+          Built using ReactJS and Redux with Firebase as the database and SASS for looks.
+        </p>
+        <p className="project-text">
+          Also using the geolocation and Google Map APIs.
         </p>
         <a href="https://co-kid-hikes.firebaseapp.com/">
           <p className="project-text">Try it for yourself.</p>

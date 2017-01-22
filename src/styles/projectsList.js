@@ -10,6 +10,7 @@ export default StyleSheet.create({
         "display": "flex",
         "flexWrap": "wrap",
         "fontFamily": "'Prompt', sans-serif",
+        "fontWeight": "300",
         "width": "100%",
         "textAlign": "center",
         "alignItems": "center",
@@ -46,7 +47,7 @@ export default StyleSheet.create({
     },
     "projecta:hover": {
         "color": "white",
-        "fontSize": 2.5
+        "fontSize": 2
     },
     "projecta:hover overlay": {
         "background": "#455A64",
@@ -74,7 +75,7 @@ export default StyleSheet.create({
     },
     "projectb:hover": {
         "color": "white",
-        "fontSize": 2.5
+        "fontSize": 2
     },
     "projectb:hover overlay": {
         "background": "#FF5722",
@@ -88,7 +89,7 @@ export default StyleSheet.create({
     },
     "projectc:hover": {
         "color": "white",
-        "fontSize": 2.5
+        "fontSize": 2
     },
     "projectc:hover overlay": {
         "background": "#388E3C",
@@ -101,7 +102,7 @@ export default StyleSheet.create({
     },
     "projectd:hover": {
         "color": "white",
-        "fontSize": 2.5
+        "fontSize": 2
     },
     "projectd:hover overlay": {
         "background": "#FF5722",
@@ -114,7 +115,7 @@ export default StyleSheet.create({
     },
     "projecte:hover": {
         "color": "white",
-        "fontSize": 2.5
+        "fontSize": 2
     },
     "projecte:hover overlay": {
         "backgroundColor": "#303F9F",

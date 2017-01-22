@@ -10,7 +10,10 @@ const Project2 = () => {
           This is a web application to find the weather forecast for a user's favorite cities.
         </h1>
         <p className="project-text">
-          Built using React.js and Redux with SASS for looks.
+          Built using ReactJS and Redux with SASS for looks.
+        </p>
+        <p className="project-text">
+          Also using the geolocation and OpenWeatherMap APIs.
         </p>
         <a href="https://github.com/mjvalade/weather-forecast">
           <p className="project-text">Check out the codes.</p>

@@ -10,14 +10,14 @@ const ProjectsList = () => {
         {/* <p className="project-title">CO Kid Hikes</p> */}
         <div className="overlay">
           <h3 className="overlay-title">CO Kid Hikes</h3>
-          <p className="overlay-about">Web app for tracking trails</p>
+          <p className="overlay-about">Web app for tracking hiking trails</p>
         </div>
       </Link>
 
       <Link to="/Project2" className="project b">
         <div className="overlay">
           <h3 className="overlay-title">Weather Tracker</h3>
-          <p className="overlay-about">Find weather for your favorites</p>
+          <p className="overlay-about">Find weather for your favorite cities</p>
         </div>
       </Link>
 
