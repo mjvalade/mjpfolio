@@ -13,7 +13,7 @@ const Header = () => {
 
       <nav>
         <a href="#footer" className="top">CONTACT</a>
-        <a href="https://www.turing.io/sites/default/files/resumes/MJValadeResume.pdf" className="top">RESUME</a>
+        <a href="https://www.turing.io/sites/default/files/resumes/MJValade-Resume.pdf" className="top">RESUME</a>
       </nav>
     </header>
   );
