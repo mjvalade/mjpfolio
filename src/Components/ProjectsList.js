@@ -7,7 +7,6 @@ const ProjectsList = () => {
     <section id="all-projects" className="offset">
 
       <Link to="/Project1" className="project a">
-        {/* <p className="project-title">CO Kid Hikes</p> */}
         <div className="overlay">
           <h3 className="overlay-title">CO Kid Hikes</h3>
           <p className="overlay-about">Web app for tracking hiking trails</p>
@@ -41,12 +40,6 @@ const ProjectsList = () => {
           <p className="overlay-about">Surf's Up!</p>
         </div>
       </Link>
-
-      {/* <Link to="/Project6" className="project f">
-        <div className="overlay">
-          <h3 className="project-title">Other</h3>
-        </div>
-      </Link> */}
     </section>
   );
 };

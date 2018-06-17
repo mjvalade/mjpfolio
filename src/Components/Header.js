@@ -3,8 +3,7 @@ import { Link } from 'react-router';
 import '../styles/header.css';
 
 const Header = () => {
-  return(
-    <header className="header-container">
+  return <header className="header-container">
       <section className="icon">
         <Link to="/">
           <h1 className="header-title">MaryJane Valade</h1>
@@ -12,11 +11,14 @@ const Header = () => {
       </section>
 
       <nav>
-        <a href="#footer" className="top">CONTACT</a>
-        <a href="https://www.turing.io/sites/default/files/resumes/MJValade-Resume.pdf" className="top">RESUME</a>
+        <a href="#footer" className="top">
+          CONTACT
+        </a>
+        <a href="https://www.turing.io/sites/default/files/resumes/MJValadeResume_web.pdf" className="top">
+          RESUME
+        </a>
       </nav>
-    </header>
-  );
+    </header>;
 };
 
 export default Header;
